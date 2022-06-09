@@ -1,0 +1,12 @@
+.main{
+    width: 60vw;
+    height: 80vh;
+    border:black 1px solid;
+    position: fixed;
+    left:20vw;
+    bottom: 0 ;
+    background-color: #99C4C8;
+    
+    
+   
+}

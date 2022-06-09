@@ -1,0 +1,36 @@
+.leftnav{
+    height: 80vh;
+    width: 20vw;
+    border:black 1px solid;
+    position:fixed;
+    bottom: 0;
+    left: 0;
+    background-color: #EEE4AB;
+}
+.currentSong{
+    width: 90%;
+    height:45%;
+    border:1px solid;
+    border-radius: 10px;
+    background-color: lightcoral;
+    margin: 10px;
+    background-image: url("https://www.powrcdn.com/plugin_icons_svg/musicPlayer.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.artist{
+    width: 90%;
+    height:45%;
+    /* border:1px solid; */
+    border-radius: 10px;
+    /* background-color: lightcoral; */
+    margin: 5%;
+    display: grid;  
+    gap:5%;
+    grid-template-columns: auto auto auto;
+}
+.oneArt{
+    border: 1px solid;
+    border-radius: 20px;
+    background-color: #F5C6AA;
+}

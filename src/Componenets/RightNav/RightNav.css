@@ -1,0 +1,45 @@
+.rightnav{
+    width:20vw;
+    height: 80vh;
+    border:black 1px solid;
+    position:fixed;
+    right: 0;
+    bottom: 0;
+    background-color: #E5CB9F;
+    /* display: grid; */
+    /* align-items: center; */
+    /* justify-items: center; */
+}
+/* .playlist{ */
+    /* height: 65px; */
+    /* width: 95%; */
+    /* border: 1px solid; */
+  /* justify-self: center; */
+  /* align-self: center; */
+    /* margin: 5%; */
+/* } */
+/* .conpPlaylist{ */
+    /* gap:5px; */
+    /* display: grid; */
+    /* grid-template-columns: 26% 26% 26%; */
+    /* align-items: center; */
+    /* justify-items: center; */
+    /* border: 1px solid; */
+   
+/* } */
+.conpPlaylist{
+    width: 90%;
+    height:45%;
+    /* border:1px solid; */
+    border-radius: 10px;
+    /* background-color: lightcoral; */
+    margin: 5%;
+    display: grid;  
+    gap:5%;
+    grid-template-columns: auto auto auto;
+}
+.playlist{
+    border: 1px solid;
+    border-radius: 20px;
+    background-color: #FF75A0;
+}

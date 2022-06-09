@@ -1,0 +1,52 @@
+.header{
+    height: 20vh;
+    width: 100%;
+    border:black 1px solid;
+    position: fixed;
+    top:0;
+    right: 0;
+    margin: 1px;
+    background-color: #68A7AD;
+    font-size: 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}
+
+.search{
+    width: 15%;
+    height: 30%;
+}
+.inpSearch{
+    width: 45%;
+    height: 30px;
+    position: fixed;
+    right: 27.5vw;
+}
+.imgUser{
+    height: 100px;
+    width: 100px;
+    position: fixed;
+    top:2%;
+    right: 2%;
+}
+.nameUser{
+    position: fixed;
+    top:11%;
+    right: 3%;
+    font-size: small;
+    
+}
+.btnMinus{
+    position: fixed;
+    top:2%;
+    left: 2%;
+}
+.btnPlus{
+    position: fixed;
+    top:2%;
+    left: 3%;
+}
+.btnPlay{
+    position: fixed;
+    top:2%;
+    left: 4%; 
+}
