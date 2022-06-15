@@ -50,3 +50,16 @@
     top:2%;
     left: 4%; 
 }
+/* .submit{
+    height: 30px;
+    width: 4%;
+    position: fixed;
+    right: 23.5vw;
+    
+} */
+.btnSearch{
+    height: 30px;
+    width: 4%;
+    position: fixed;
+    right: 23.5vw;
+}
