@@ -25,34 +25,19 @@ import ListOfPlaylist from '../Context'
 
 
 function CurrentSong() {
-  const { playlist, id } = useContext(ListOfPlaylist)
-  console.log(id);
-  if(id){
-
-    const plyrProps = [{
-      id:1,
-      type:"video",
-      sources: [
-        {
-          src:`${playlist[0].songs[id].link}` ,
-          provider: "youtube"
-        }
-      ]
-    },
+  const {selectSong} = useContext(ListOfPlaylist)
+ 
+    const plyrProps = [
     {
-      
       type:"video",
       sources: [
         {
-          src: `${playlist[0].songs[1].link}` ,
+          src: `${selectSong}` ,
           provider: "youtube"
         }
       ]
     },]
-    
-    
-    console.log(playlist[0].songs[0].link);
     return <Plyr source= {plyrProps[0]}  />
   }
-}
+// }
 export default CurrentSong

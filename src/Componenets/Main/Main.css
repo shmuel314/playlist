@@ -10,3 +10,56 @@
     
    
 }
+.song{
+    border: 1px solid black;
+    height: 70px;
+    width: 90%;
+    margin: 2%;
+    display: grid;
+    text-overflow: clip;
+}
+.song img{
+    height: 70px;
+    width: 90%;
+}
+.contSong{
+    grid-template-columns: 33% 33% 33% ;
+    display: grid;
+}
+/* .title{ */
+    /* position: absolute; */
+    /* top: 50%; */
+    /* left: 50%; */
+    /* transform: translate(-50%, -50%); */
+/* } */
+.addPlaylist{
+    border: 1px solid black;
+    height: 70px;
+    width: 90%;
+    margin: 2%;
+}
+.popupBox{
+    position: fixed;
+    left: 0;
+    top:0;  
+    background-color: rgba(78, 72, 72, 0.8);
+    /* background-color: rgba(257, 247, 247, 0.75); */
+    height: 100vh;
+    width: 100%;
+}
+.box{
+    position: relative;
+    background-color: #fff;
+    height: 100%;
+    width: 30%;
+    margin: 20px auto;
+    overflow: auto;
+}
+.btn-add{
+    cursor: pointer;
+    border: 1px solid gray;
+    border-radius: 50%;
+    position: fixed;
+    right: 34.5%;
+    top: 15px;
+}
